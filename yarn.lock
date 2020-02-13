@@ -1129,10 +1129,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@expo/config@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@expo/config/-/config-2.6.0.tgz#4c5eddb48d959a71f6aabc945e7c1ba5e6bb55e6"
-  integrity sha512-Kz+QAkeHBwY+zasq80IKniWKAtANRCt5UWXOLc7kfHnX2VH0PtR+kUa5a9J+nbkEpxSbXsEizQevrpqBvZFbeg==
+"@expo/config@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@expo/config/-/config-2.6.1.tgz#def808128195fc5d8ff13824e9b1b75f5daaba17"
+  integrity sha512-Q+5WjaKu2AI0hcGWkhQU3AwwuCpTdS2mEF/G9tyatL4UHmDlUSgsskO3J7dxrkfnX8c6VxoUz7ABSw4Bsm+iwQ==
   dependencies:
     "@babel/register" "^7.8.3"
     "@expo/json-file" "^8.2.5"
@@ -1164,13 +1164,13 @@
     util.promisify "^1.0.0"
     write-file-atomic "^2.3.0"
 
-"@expo/next-adapter@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@expo/next-adapter/-/next-adapter-2.0.4.tgz#a528f7ba097dd4f783a4676c46431f801526bef0"
-  integrity sha512-OWaZ5jhlAWpBV5ihZF3YWOtyXJZigbQzYjwR0m1KdkrJIOZ0OtI2+EsTc6meyMGBA12n4Zu0CM5fPKbjx59Dtw==
+"@expo/next-adapter@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@expo/next-adapter/-/next-adapter-2.0.5.tgz#8a634ae982bc97ea63f66d2029a9002ef08c45de"
+  integrity sha512-kH6uPphznSe7lUJAF+z+hjc5yYAApxiwf+s20a8ZDyqklRfXkFGZAUDDoIIwdNdZkuXVsX0x/ZMEJxSRYi9FHg==
   dependencies:
     "@expo/package-manager" "0.0.5"
-    "@expo/webpack-config" "0.11.0"
+    "@expo/webpack-config" "0.11.1"
     "@types/next" "^8.0.6"
     chalk "^3.0.0"
     commander "^4.0.1"
@@ -1207,15 +1207,15 @@
   dependencies:
     lodash "^4.17.4"
 
-"@expo/webpack-config@0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@expo/webpack-config/-/webpack-config-0.11.0.tgz#de708a43b65b8acdd4499b9524f682f502bfb972"
-  integrity sha512-/0+areS/PcLktm1/PJtOv1aLmsxZlyMXV+vY4uLJCnq0qsMj09ZrnaoNSNA8JLdcIYIhr9yhyhETS2lKy/zj7Q==
+"@expo/webpack-config@0.11.1":
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/@expo/webpack-config/-/webpack-config-0.11.1.tgz#d15741b156c3ccf071557042227273e337c2d396"
+  integrity sha512-11eahXqg1jjjy6Ljk//cp3CTa8qIVUZubLZk1ib+BbT3Pf/gYMGA4lZESt6FvENEiRGA24jwiB5ToJIHfg/eIw==
   dependencies:
     "@babel/core" "^7.4.5"
     "@babel/runtime" "^7.3.4"
-    "@expo/config" "2.6.0"
-    "@expo/webpack-pwa-manifest-plugin" "1.2.20"
+    "@expo/config" "2.6.1"
+    "@expo/webpack-pwa-manifest-plugin" "1.2.21"
     babel-loader "8.0.6"
     brotli-webpack-plugin "^1.1.0"
     chalk "^2.4.2"
@@ -1245,12 +1245,12 @@
     worker-loader "^2.0.0"
     yup "^0.27.0"
 
-"@expo/webpack-pwa-manifest-plugin@1.2.20":
-  version "1.2.20"
-  resolved "https://registry.yarnpkg.com/@expo/webpack-pwa-manifest-plugin/-/webpack-pwa-manifest-plugin-1.2.20.tgz#1ea2af7bb9034119b507ea41f1de81dd695d039d"
-  integrity sha512-gTADlk7qmJJ5Yaji8WpwcHIi7WJQFstnMZxRFOWlcgC0kexas/qhW5o/X+BR5k6o/PjgSLp6NiqavBo/ItwJYg==
+"@expo/webpack-pwa-manifest-plugin@1.2.21":
+  version "1.2.21"
+  resolved "https://registry.yarnpkg.com/@expo/webpack-pwa-manifest-plugin/-/webpack-pwa-manifest-plugin-1.2.21.tgz#5a0213ced1978391964efc0755f1ab6c1b8a8ad2"
+  integrity sha512-YQVR0yzAMaqUJrbluxmgrkbtvPFya3SaoC4uH5U0hZpxsC/SR7nZjEYhRY92Ph+XcO5YI6AgG8eFQpITdB7aUQ==
   dependencies:
-    "@expo/config" "2.6.0"
+    "@expo/config" "2.6.1"
     "@expo/image-utils" "^0.2.12"
     is-color "^1.0.2"
     jimp "^0.9.3"
@@ -1924,17 +1924,10 @@
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.1.tgz#937fab3194766256ee09fcd40b781740758617e7"
   integrity sha512-lhbQXx9HKZAPgBkISrBcmAcMpZsmpe/Cd/hY7LGZS5OfkySUBItnPZHgQPssWYUET8elF+yCFBbP1Q0RZPTdaw==
 
-"@types/react-native@>=0.50.0":
+"@types/react-native@>=0.50.0", "@types/react-native@~0.61.14":
   version "0.61.14"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.61.14.tgz#f81c188a569a8e6b7976875ad298f6c14d3e3d24"
   integrity sha512-nScK4ScGibADx4fEjkM9ps1q3ij7OAbkaINJ/jwBNrwQg19RPB1fHTrh7r4KBsHn+ile/j2KPwyQm/H7DbConQ==
-  dependencies:
-    "@types/react" "*"
-
-"@types/react-native@~0.61.13":
-  version "0.61.13"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.61.13.tgz#f285a766f6059a165d99dc60c03a542e9f3bf5ac"
-  integrity sha512-1wgQx8a+TQ3yBCNF3oKX7GCDKQ6+aCWMseOjsglbQHis/drQSG16msnABccvxY/hbPG65+vFFQoFxF5BE6D2jg==
   dependencies:
     "@types/react" "*"
 
